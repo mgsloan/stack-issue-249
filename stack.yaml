@@ -1,0 +1,6 @@
+resolver: lts-2.13
+docker:
+  enable: true
+  repo: fpco/ghcjs-dev
+packages:
+  - ./ide-backend/ide-backend-server
